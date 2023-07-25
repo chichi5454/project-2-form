@@ -1,0 +1,96 @@
+/** @format */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #e6e6e6;
+  background-size: cover;
+  background-position: center;
+  font-family: "Fasthand", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  font-size: medium;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  color: #f7f3ff;
+  background-color: #885df1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form {
+  text-align: left;
+  margin-top: 20px;
+}
+.form-heading {
+  color: #272044;
+  background-color: #e6e6e6;
+}
+.heading {
+  color: #fff;
+}
+
+.form-name,
+.form-email,
+.form-age,
+.form-role,
+.list-projects,
+.footer {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #37af65;
+}
+
+.form-comment {
+  min-height: 120px;
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #000;
+}
+
+/* Additional styles for responsiveness */
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  button {
+    max-width: 100%;
+  }
+}
